@@ -73,8 +73,8 @@ CrossTable(sms_test_predict,sms_test_labels, prop.chisq = FALSE,prop.t = FALSE,
            dnn = c('predict','actual'))
 
 
-# improving Model
-sms_classfier2 <- naiveBayes(sms_train, sms_train_labels, laplace = 1)
-sms_test_predict2 <- predict(sms_classfier2, sms_test)
-CrossTable(sms_test_predict2,sms_test_labels, prop.chisq = FALSE,prop.t = FALSE,
-           dnn = c('predict','actual'))
+# improving Model 
+#sms_classfier2 <- naiveBayes(sms_train, sms_train_labels, laplace = 1)
+#sms_test_predict2 <- predict(sms_classfier2, sms_test)
+#CrossTable(sms_test_predict2,sms_test_labels, prop.chisq = FALSE,prop.t = FALSE,
+ #          dnn = c('predict','actual'))
